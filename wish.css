@@ -1,0 +1,41 @@
+/* Styling the wishlist container */
+#wishlist-container {
+    position: fixed;
+    right: 0;
+    top: 100px;
+    width: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    height: auto;
+    overflow-y: auto;
+    border-left: 1px solid #ccc;
+}
+
+#wishlist-container h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+#wishlist {
+    list-style: none;
+    padding: 0;
+}
+
+#wishlist li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wishlist-item-btn {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+}
