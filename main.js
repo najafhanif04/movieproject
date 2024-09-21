@@ -58,13 +58,3 @@ const SearchMovies = async () => {
 )
 
 };
-
-const arr = [
-    {
-        name: "sami"
-    }
-]
-
-
-const User = arr.filter((item)=>item.name.startsWith("s"))
-console.log(user)
